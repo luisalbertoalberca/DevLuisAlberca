@@ -222,14 +222,15 @@ body {
     margin: 0 0 1rem;
 }
 .about .p{
-    max-width: 40em;
-    background: lime;
-    margin: 0 0 1em;
+    max-width: 40rem;
+    /*background: lime;*/
+    margin: 0 0 2em;
+    font-size: 1.5em;
     text-align: left;
 }
 .about .rrss{
     width: 100%;
-    background: lightgreen;
+    /*background: lightgreen;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -237,14 +238,13 @@ body {
     align-items: center;
 }
 .about .li{
+    /*background: orange;*/
     margin: 0 1em;
-    background: orange;
-
 }
 .about .a{}
 .about .svg{
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     /*background: red;*/
 }
 
