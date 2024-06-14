@@ -1,11 +1,11 @@
 # Perfil__Descripción 📄
 
-Este es un portfolio creado con HTML, CSS y Javascript usando metodologia BEM y una Arquitectura ITCSS.
+Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y una Arquitectura ITCSS.
 
 ## Perfil__Autor 👤
 **Luis Alberto Alberca**
 
-- [LinkedIn](https://linkedin.com/in/luisaklbertoalberca/)
+- [LinkedIn](https://linkedin.com/in/luisalbertoalberca/)
 - [Portfolio web](https://dev.to/devluisalberca/)
 
 ## Perfil__Ejemplo-en-vivo 🚀
