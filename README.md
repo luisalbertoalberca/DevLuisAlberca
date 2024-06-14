@@ -15,4 +15,4 @@ Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el archivo `.html`.
 
 ## Perfil__Contratación 💼
-Si quieres contratarme puedes escribirme a [luisalbertoalberca@icloud.com] para consultas.
+Si quieres contratarme puedes escribirme a [luisalbertoalberca@icloud.com](mailto:luisalbertoalberca@icloud.com) para consultas.
