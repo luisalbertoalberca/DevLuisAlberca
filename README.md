@@ -9,10 +9,10 @@ Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y
 - [Portfolio web](https://dev.to/devluisalberca/)
 
 ## Perfil__Ejemplo-en-vivo 🚀
-- [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
+- [https://luisalbertoalberca.github.io/DevLuisAlberca/](https://luisalbertoalberca.github.io/DevLuisAlberca/)
 
 ## Perfil__Instalación 🔧
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el archivo `.html`.
 
 ## Perfil__Contratación 💼
-Si quieres contratarme puedes escribirme a [luisalbertoalberca@icloud.com](mailto:luisalbertoalberca@icloud.com) para consultas.
+Si quieres contratarme puedes escribirme a [luisalbertoalberca@icloud.com] para consultas.
