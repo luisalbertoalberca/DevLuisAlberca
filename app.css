@@ -64,6 +64,71 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.circulos{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    z-index: 1;
+    filter: blur(70px);
+    animation: circulo1 20s linear infinite both;
+}
+
+.circulos .circulo{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    animation: circulo1 100s linear infinite both;
+    
+}
+
+.circulos .circulo1{
+    top: 0%;
+    left: 0%;
+    
+}
+@keyframes circulo1 {
+    from{
+        transform: rotate(0deg) scale(3);
+    }
+    to{
+        transform: rotate(360deg) scale(3);
+    }
+}
+
+.circulos .circulo1 .path{
+    fill: seagreen;
+}
+
+.circulos .circulo2{
+    top: 0%;
+    right: 0%;
+}
+
+.circulos .circulo2 .path{
+    fill: black;
+}
+
+.circulos .circulo3{
+    bottom: 0%;
+    left: 0%;
+}
+
+.circulos .circulo3 .path{
+    fill: rgb(165, 127, 1);
+}
+
+.circulos .circulo4{
+    bottom: 0%;
+    right: 0%;
+}
+
+.circulos .circulo4 .path{
+    fill: rgb(0, 59, 155);
+}
+
 .header{
     width: 100%;
     min-height: 5em;
@@ -95,9 +160,10 @@ body {
 .header .li .a{}
 
 .main{
-    background: lightgrey;
     margin: 0 0 1em;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .seccion{
@@ -116,8 +182,7 @@ body {
 .seccion .info{
     font-size: 1.2em;
 }
-.seccion .circulos{}
-.seccion .circulo{}
+
 .seccion .ul{
     /*background: red;*/
     margin: 2em 0 0;
@@ -154,7 +219,9 @@ body {
     font-size: 4.3em;
     /*font-style: italic;*/
 }
-.seccion .p{}
+.seccion .p{
+
+}
 .seccion .grid{
     width: 90%;
     max-width: 40em;
@@ -177,7 +244,9 @@ body {
     position: relative;
     overflow: hidden;
 }
-.seccion .a{}
+.seccion .a{
+
+}
 .seccion .figure{
     width: 100%;
     background: red;
@@ -219,12 +288,12 @@ body {
 }
 .about{}
 .about .h2{
-    margin: 0 0 1rem;
+    margin: 0 0 2rem;
 }
 .about .p{
     max-width: 40rem;
     /*background: lime;*/
-    margin: 0 0 2em;
+    margin: 0 0 2rem;
     font-size: 1.5em;
     text-align: left;
 }
