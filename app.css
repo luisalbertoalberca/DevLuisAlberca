@@ -80,22 +80,12 @@ body {
     position: absolute;
     width: 50%;
     height: 50%;
-    animation: circulo1 100s linear infinite both;
-    
+    animation: circulo1 100s linear infinite both;    
 }
 
 .circulos .circulo1{
     top: 0%;
-    left: 0%;
-    
-}
-@keyframes circulo1 {
-    from{
-        transform: rotate(0deg) scale(3);
-    }
-    to{
-        transform: rotate(360deg) scale(3);
-    }
+    left: 0%;    
 }
 
 .circulos .circulo1 .path{
@@ -108,7 +98,7 @@ body {
 }
 
 .circulos .circulo2 .path{
-    fill: black;
+    fill: rgb(111, 0, 155);
 }
 
 .circulos .circulo3{
@@ -169,8 +159,6 @@ body {
 .seccion{
     width: 100%;
     min-height: 80vh;
-    background: lightblue;
-    /*margin: 1em 0;*/
     padding: 2em;
 
     display: flex;
@@ -324,4 +312,13 @@ body {
 }
 .footer .spam{
 
+}
+
+@keyframes circulo1 {
+    from{
+        transform: rotate(0deg) scale(3);
+    }
+    to{
+        transform: rotate(360deg) scale(3);
+    }
 }
