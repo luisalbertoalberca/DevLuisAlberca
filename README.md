@@ -1,18 +1,80 @@
-# Perfil__Descripción 📄
+# Portafolio Profesional de Luis Alberto Alberca
 
-Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y una Arquitectura ITCSS.
+Bienvenidos a mi portafolio profesional. Aquí podrán conocer más sobre mis conocimientos, experiencia, logros y proyectos de una manera dinámica y accesible.
 
-## Perfil__Autor 👤
-**Luis Alberto Alberca**
+## 🌐 [Ejemplo-en-vivo](https://luisalbertoalberca.github.io/DevLuisAlberca/)
 
-- [LinkedIn](https://linkedin.com/in/luisalbertoalberca/)
-- [Portfolio web](https://dev.to/devluisalberca/)
+---
 
-## Perfil__Ejemplo-en-vivo 🚀
-- [https://luisalbertoalberca.github.io/DevLuisAlberca/](https://luisalbertoalberca.github.io/DevLuisAlberca/)
+## Tecnologías Utilizadas
 
-## Perfil__Instalación 🔧
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el archivo `.html`.
+Desarrollé mi portafolio utilizando las siguientes tecnologías:
 
-## Perfil__Contratación 💼
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **React**
+- **Node.js**
+
+Esto me permite garantizar la escalabilidad y el mantenimiento eficiente del código.
+
+---
+
+## Diseño Responsivo
+
+Para asegurar que mi portafolio se vea bien en cualquier dispositivo, utilicé:
+
+- **Media queries** y **unidades relativas** como porcentajes y `em`/`rem` para adaptar el diseño a diferentes tamaños de pantalla.
+- **Técnicas de ajuste de imágenes** como `object-fit` y `object-position` para asegurar que las imágenes se ajusten correctamente dentro de sus contenedores sin distorsionarse.
+
+---
+
+## Animaciones
+
+He implementado animaciones suaves y atractivas utilizando `keyframes` y `animation` en CSS, como la animación de los círculos de fondo.
+
+---
+
+## Control de Versiones
+
+Para el control de versiones y la colaboración, utilizo **Git** y **GitHub**. Esto me permite trabajar de manera eficiente y mantener un historial claro de todos los cambios realizados.
+
+---
+
+## Proyectos Destacados
+
+Aquí algunos de mis proyectos destacados:
+
+- **Sitio web de comercio electrónico:** Por su complejidad y funcionalidades avanzadas.
+- **Aplicación de gestión de proyectos:** Por su utilidad práctica y diseño intuitivo.
+
+---
+
+## Desafíos y Soluciones
+
+Uno de los principales desafíos fue la adaptación a diferentes tamaños de pantalla, que resolví mediante media queries y unidades relativas. Además, integrar animaciones suaves fue un reto que superé usando `keyframes` y `animation` en CSS.
+
+---
+
+## Contacto
+
 Si quieres contratarme puedes escribirme a [luisalbertoalberca@icloud.com](mailto:luisalbertoalberca@icloud.com) para consultas.
+
+---
+
+<style>
+  h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
