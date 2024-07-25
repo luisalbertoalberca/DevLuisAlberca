@@ -59,22 +59,3 @@ Uno de los principales desafíos fue la adaptación a diferentes tamaños de pan
 ## Contacto
 
 Si quieres contratarme puedes escribirme a [luisalbertoalberca@icloud.com](mailto:luisalbertoalberca@icloud.com) para consultas.
-
----
-
-<style>
-  h1, h2, h3, h4, h5, h6 {
-    color: #2c3e50;
-  }
-  body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-  }
-  a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-</style>
