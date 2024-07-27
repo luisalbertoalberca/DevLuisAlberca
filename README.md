@@ -3,8 +3,8 @@
 Bienvenidos a mi portafolio profesional. Aquí podrán conocer más sobre mis conocimientos, experiencia, logros y proyectos de una manera dinámica y accesible.
 
 ## Perfil__Ejemplo-en-vivo 🚀
-- [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
-- [https://luisalbertoalberca.github.io/DevLuisAlberca/](https://luisalbertoalberca.github.io/DevLuisAlberca/)
+
+[ENLACE GITHUB PAGES](https://luisalbertoalberca.github.io/DevLuisAlberca/)
 
 ---
 
@@ -66,5 +66,4 @@ Si quieres contactarme puedes escribirme a [luisalbertoalberca@icloud.com](mailt
 
 ## Imagenes
 
-- [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
-- [https://luisalbertoalberca.github.io/DevLuisAlberca/](https://luisalbertoalberca.github.io/DevLuisAlberca/)
+[ENLACE GITHUB PAGES](https://luisalbertoalberca.github.io/DevLuisAlberca/)
