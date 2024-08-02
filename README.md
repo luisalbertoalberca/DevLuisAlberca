@@ -2,9 +2,9 @@
 
 Bienvenidos a mi portafolio profesional. Aquí podrán conocer más sobre mis conocimientos, experiencia, logros y proyectos de una manera dinámica y accesible.
 
-## Perfil__Ejemplo-en-vivo 🚀
+## Perfil Ejemplo en vivo
 
-[ENLACE GITHUB PAGES](https://luisalbertoalberca.github.io/DevLuisAlberca/)
+[https://luisalbertoalberca.github.io/DevLuisAlberca/](https://luisalbertoalberca.github.io/DevLuisAlberca/)
 
 ---
 
