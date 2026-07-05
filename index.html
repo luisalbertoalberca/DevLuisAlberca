@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Normal</title>
+    <meta name="description" content="Portfolio profesional de Luis Alberca - Web Developer. Explora mis proyectos, habilidades y experiencia en desarrollo web.">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, React, Node.js">
+    <meta name="author" content="Luis Alberca">
+    <meta property="og:title" content="Portfolio de Luis Alberca - Web Developer">
+    <meta property="og:description" content="Descubre mis proyectos y habilidades como Web Developer">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:url" content="https://luisalbertoalberca.github.io/DevLuisAlberca/">
+    <title>Luis Alberca - Web Developer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&
-    family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/font/style.css">
     <link rel="stylesheet" href="app.css">
     <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -26,92 +31,320 @@
             <path class="path" d="M38.5,-66.4C63.8,-55.6,77.8,-42.7,81.9,-27.3C85.9,-11.9,80,6.1,73.5,23.2C67,40.4,60.1,56.7,47.7,64.7C35.4,72.6,17.7,72.2,2.3,69C-13.2,65.9,-26.4,60.2,-39,52.3C-51.6,44.5,-63.7,34.5,-67.3,22.2C-70.9,9.8,-66.1,-5.1,-63.1,-22.4C-60,-39.7,-58.8,-59.4,-48.6,-71.9C-38.4,-84.3,-19.2,-89.4,-1.3,-87.6C16.6,-85.8,33.2,-77.1,48.5,-66.4Z" transform="translate(100 100)" />
         </svg>
         <svg class="circulo circulo3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <path class="path" d="M48.9,-67.5C53.8,-68,59.6,-52.9,60.4,-39C61.1,-25.2,56.8,-12.6,56.2,-0.3C55.7,11.9,58.8,23.9,58.1,37.8C57.4,51.7,52.8,67.6,42.5,71.5C32.2,75.4,16.1,67.2,0,67.2C-16,67.1,-32,75.1,-46.2,73.4C-60.3,71.8,-72.7,60.4,-77.6,46.6C-82.5,32.7,-79.9,16.4,-74.8,3C-69.6,-10.4,-61.8,-20.8,-53.8,-29.3C-45.9,-37.9,-37.8,-44.7,-28.8,-55.3C-19.8,-66,-9.9,-80.5,3,-85.7C16,-91,32,-87.1,42.9,-77.5Z" transform="translate(100 100)" />
+            <path class="path" d="M48.9,-67.5C53.8,-68,59.6,-52.9,60.4,-39C61.1,-25.2,56.8,-12.6,56.2,-0.3C55.7,11.9,58.8,23.9,58.1,37.8C57.4,51.7,52.8,67.6,42.5,71.5C32.2,75.4,16.1,67.2,0,67.2C-16.1,67.1,-32.2,75.3,-42.3,71.3C-52.4,67.3,-56.4,51.1,-57.3,37C-58.1,22.9,-56,-11,-51,-37.5C-46,-64,-38,-85.4,-25.5,-91.3C-13,-97.1,5.3,-77.3,18.9,-70C32.6,-62.7,44.1,-67,48.9,-67.5Z" transform="translate(100 100)" />
         </svg>
         <svg class="circulo circulo4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path class="path" d="M47.7,21.4C38,42.1,-9.6,37,-23.2,14C-36.8,-9.1,-18.4,-50.1,4.4,-47.5C27.2,-45,54.4,1.1,45.2,21.6Z" transform="translate(100 100)" />
-          </svg>
+        </svg>
     </div>
 
-
-    <header class="header"
+    <header class="header">
         <h1 class="h1"><a href="#inicio" title="Luis Alberca" class="a">Luis Alberca</a></h1>
         <nav class="nav">
             <ul class="ul">
                 <li class="li"><a href="#inicio" title="Inicio" class="a">Inicio</a></li>
-                <li class="li"><a href="#works" title="Works" class="a">Trabajos</a></li>
-                <li class="li"><a href="#about" title="About" class="a">Contacto</a></li>
+                <li class="li"><a href="#skills" title="Habilidades" class="a">Habilidades</a></li>
+                <li class="li"><a href="#experience" title="Experiencia" class="a">Experiencia</a></li>
+                <li class="li"><a href="#works" title="Proyectos" class="a">Proyectos</a></li>
+                <li class="li"><a href="#about" title="Contacto" class="a">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main">
 
+        <!-- SECCIÓN HERO / INICIO -->
         <div class="seccion" id="inicio">
             <section class="section info">
                 <h2 class="h2">Luis Alberca</h2>
                 <h3 class="h3">Web Developer</h3>
+                <p class="p intro-text">Desarrollador web apasionado por crear soluciones digitales innovadoras y experiencias de usuario excepcionales.</p>
 
-                <ul class="ul">
+                <div class="cta-buttons">
+                    <a href="#works" class="btn btn-primary" title="Ver Proyectos">Ver Mis Proyectos</a>
+                    <a href="assets/cv-luis-alberca.pdf" class="btn btn-secondary" title="Descargar CV" download>Descargar CV</a>
+                </div>
+
+                <ul class="ul social-links">
                     <li class="li">
-                        <a href="https://github.com/luisalbertoalberca" class="a" title="Github">Visitar mi Github</a>
+                        <a href="https://github.com/luisalbertoalberca" class="a" title="Github" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.63 1.23.89.7 1.21 1.82.87 2.25.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0Z"/>
+                            </svg>
+                            Github
+                        </a>
                     </li>
                     <li class="li">
-                        <a href="https://www.linkedin.com/in/luisalbertoalberca/" class="a" title="Linkedin">Visitar mi Linkedln</a>
+                        <a href="https://www.linkedin.com/in/luisalbertoalberca/" class="a" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.165-.405.789-1.008 1.945-1.008 1.374 0 1.925.981 1.925 2.418v2.581h2.401v-2.768c0-2.272-.5-4.039-2.84-4.039-1.313 0-2.196.725-2.602 1.411l-.046.056h-.048V6.169h-2.35c.03.636 0 7.225 0 7.225h2.35z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a href="mailto:luisalbertoalberca@icloud.com" class="a" title="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-6.693 4.028L15 11.713v-5.33Zm-.034 6.878L8 8.871l-6.966 4.39A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739ZM1 11.713l6.693-4.028L1 5.383v6.33Z"/>
+                            </svg>
+                            Email
+                        </a>
                     </li>
                 </ul>
             </section>
         </div>
 
-        <section class="seccion works" id="works">
-            <h2 class="h2">Trabajos</h2>
-            <p>Aqui te presento mis trabajos mientras estudiaba</p>
+        <!-- SECCIÓN DE HABILIDADES -->
+        <section class="seccion skills" id="skills">
+            <h2 class="h2">Habilidades Técnicas</h2>
+            <p class="section-subtitle">Tecnologías y herramientas con las que trabajo</p>
 
-            <div class="grid">
-                <article class="article">
-                    <a class="a" href="#" title="Trabajo1">
-                        <figure class="figure"><img src="assets/chica.jpg" alt="Imagen" class="img" loading="lazy"></figure>
-                    <h4 class="h4">Nombre trabajo</h4>
-                    </a>
+            <div class="skills-container">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Frontend</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Backend</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Herramientas -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Herramientas & Otros</h4>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Básico</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE EXPERIENCIA -->
+        <section class="seccion experience" id="experience">
+            <h2 class="h2">Experiencia Profesional</h2>
+            <p class="section-subtitle">Mi recorrido en el desarrollo web</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Presente</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Desarrollador Web Freelance</h4>
+                        <p class="timeline-company">Autónomo</p>
+                        <ul class="timeline-description">
+                            <li>Desarrollo de sitios web responsivos con HTML, CSS y JavaScript</li>
+                            <li>Implementación de componentes React reutilizables</li>
+                            <li>Optimización de rendimiento y SEO</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Estudiante de Desarrollo Web</h4>
+                        <p class="timeline-company">Formación Académica</p>
+                        <ul class="timeline-description">
+                            <li>Completé formación en desarrollo web fullstack</li>
+                            <li>Realicé múltiples proyectos prácticos</li>
+                            <li>Aprendí buenas prácticas de programación y control de versiones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE PROYECTOS DESTACADOS -->
+        <section class="seccion works" id="works">
+            <h2 class="h2">Proyectos Destacados</h2>
+            <p class="section-subtitle">Algunos de mis trabajos más relevantes</p>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <figure class="figure"><img src="assets/chica.jpg" alt="Proyecto 1" class="img" loading="lazy"></figure>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Proyecto 1</h4>
+                        <p class="project-description">Descripción breve del proyecto y los objetivos que se lograron con el mismo.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link" title="Ver proyecto">Ver Proyecto →</a>
+                    </div>
                 </article>
-                <article class="article">
-                    <a class="a" href="#" title="Trabajo1">
-                        <figure class="figure"><img src="assets/chico.jpg" alt="Imagen" class="img" loading="lazy"></figure>
-                    <h4 class="h4">Nombre trabajo</h4>
-                    </a>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <figure class="figure"><img src="assets/chico.jpg" alt="Proyecto 2" class="img" loading="lazy"></figure>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Proyecto 2</h4>
+                        <p class="project-description">Descripción breve del proyecto y los objetivos que se lograron con el mismo.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="#" class="project-link" title="Ver proyecto">Ver Proyecto →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <figure class="figure"><img src="assets/chica.jpg" alt="Proyecto 3" class="img" loading="lazy"></figure>
+                    </div>
+                    <div class="project-content">
+                        <h4 class="project-title">Proyecto 3</h4>
+                        <p class="project-description">Descripción breve del proyecto y los objetivos que se lograron con el mismo.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">React</span>
+                            <span class="tag">API REST</span>
+                        </div>
+                        <a href="#" class="project-link" title="Ver proyecto">Ver Proyecto →</a>
+                    </div>
                 </article>
             </div>
         </section>
 
+        <!-- SECCIÓN SOBRE MÍ MEJORADA -->
         <section class="seccion about" id="about">
-            <h2 class="h2">Sobre mi</h2>
-            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus, modi esse quidem cumque iure.</p>
-            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus, modi esse quidem cumque iure.</p>
-            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus, modi esse quidem cumque iure.</p>
+            <h2 class="h2">Sobre Mí</h2>
+            <p class="section-subtitle">Conoce más acerca de quién soy</p>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="p">Soy un desarrollador web apasionado por crear soluciones digitales que combinen funcionalidad con diseño atractivo. Mi objetivo es desarrollar aplicaciones web que proporcionen excelentes experiencias de usuario.</p>
+                    <p class="p">Me encanta aprender nuevas tecnologías y mantenerme actualizado con las tendencias del desarrollo web. Creo en la importancia de escribir código limpio, mantenible y documentado.</p>
+                    <p class="p">Cuando no estoy codificando, puedes encontrarme estudiando nuevos frameworks, contribuyendo a proyectos open source o compartiendo mis conocimientos con otros desarrolladores.</p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Proyectos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Años Experiencia</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Tecnologías</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h3 class="h3">¿Quieres Trabajar Conmigo?</h3>
+                <p>Estoy disponible para proyectos freelance y oportunidades de trabajo. No dudes en ponerte en contacto conmigo.</p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:luisalbertoalberca@icloud.com" class="btn btn-primary" title="Enviar Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-6.693 4.028L15 11.713v-5.33Zm-.034 6.878L8 8.871l-6.966 4.39A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739ZM1 11.713l6.693-4.028L1 5.383v6.33Z"/>
+                        </svg>
+                        Enviar Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/luisalbertoalberca/" class="btn btn-secondary" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.165-.405.789-1.008 1.945-1.008 1.374 0 1.925.981 1.925 2.418v2.581h2.401v-2.768c0-2.272-.5-4.039-2.84-4.039-1.313 0-2.196.725-2.602 1.411l-.046.056h-.048V6.169h-2.35c.03.636 0 7.225 0 7.225h2.35z"/>
+                        </svg>
+                        Conectar en LinkedIn
+                    </a>
+                </div>
+            </div>
 
             <ul class="rrss">
                 <li class="li">
-                    <a href="#" class="a" title="Nombre" target="_blank" rel="noopener noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                          </svg>
+                    <a href="https://github.com/luisalbertoalberca" class="a" title="GitHub" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.63 1.23.89.7 1.21 1.82.87 2.25.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0Z"/>
+                        </svg>
                     </a>
                 </li>
                 <li class="li">
-                    <a href="#" class="a" title="Nombre" target="_blank" rel="noopener noreferrer">
-                        <svg <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                          </svg>
+                    <a href="https://www.linkedin.com/in/luisalbertoalberca/" class="a" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.165-.405.789-1.008 1.945-1.008 1.374 0 1.925.981 1.925 2.418v2.581h2.401v-2.768c0-2.272-.5-4.039-2.84-4.039-1.313 0-2.196.725-2.602 1.411l-.046.056h-.048V6.169h-2.35c.03.636 0 7.225 0 7.225h2.35z"/>
+                        </svg>
                     </a>
                 </li>
             </ul>
-
-
         </section>
+
     </main>
 
     <footer class="footer">
-        <span class="span">&copy; Luis Alberca 2024</span>        
+        <div class="footer-content">
+            <p><span class="span">&copy; 2024 Luis Alberca. Todos los derechos reservados.</span></p>
+            <div class="footer-links">
+                <a href="#inicio" class="a">Inicio</a>
+                <a href="#skills" class="a">Habilidades</a>
+                <a href="#works" class="a">Proyectos</a>
+                <a href="#about" class="a">Contacto</a>
+            </div>
+        </div>
     </footer>
     
 </body>
